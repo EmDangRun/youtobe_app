@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto sans-serif;
+}
+
+main {
+  margin: 30px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+main div.meida {
+  flex-grow: 1;
+}
+main div.meida div.container_media {
+  padding: 0 15px;
+}
+main div.side_media {
+  width: 25%;
+}
+main div.side_media div.container_side_media {
+  padding: 0 15px;
+}
+main div.side_media div.container_side_media div.box_song {
+  display: flex;
+  margin-bottom: 3px;
+}
+main div.side_media div.container_side_media div.box_song div.image_song {
+  cursor: pointer;
+}
+main div.side_media div.container_side_media div.box_song div.info_song {
+  padding: 0 10px;
+}
+main
+  div.side_media
+  div.container_side_media
+  div.box_song
+  div.info_song
+  div.name_song {
+  cursor: pointer;
+}
+main
+  div.side_media
+  div.container_side_media
+  div.box_song
+  div.info_song
+  div.name_song
+  a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--yt-primary-text-color);
+}
+
+@media screen and (max-width: 1200px) {
+  main div.side_media {
+    width: 100%;
+  }
+}
